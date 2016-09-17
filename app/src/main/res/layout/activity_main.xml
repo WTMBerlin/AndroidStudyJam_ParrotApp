@@ -20,13 +20,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/editText"
-        android:hint="Say Something"
+        android:hint="@string/say_something"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:gravity="bottom" />
 
     <Button
-        android:text="Parrot Repeat"
+        android:text="@string/parrot_repeat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
@@ -34,7 +34,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickButton"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -49,7 +50,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Parrot Says..."
+        android:text="@string/parrot_says"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
